@@ -58,3 +58,5 @@ def get_deportes():
 def get_deportes():
     rows = ["electro", "reggaeton", "cumba", "rap"]
     return rows
+
+print("Cambios desde locales")
