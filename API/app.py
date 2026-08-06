@@ -52,3 +52,10 @@ def get_cursos():
 def get_deportes():
     rows = ["Futbol", "Basket", "Bassball", "Tenis"]
     return rows
+
+
+
+@app.get("/programas")
+def get_programas():
+    rows = ["WWE", "TNA", "WCW", "AEW"]
+    return rows
