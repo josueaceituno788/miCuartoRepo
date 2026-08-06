@@ -54,6 +54,13 @@ def get_deportes():
     return rows
 
 
+@app.get("/musica")
+def get_deportes():
+    rows = ["electro", "reggaeton", "cumba", "rap"]
+    return rows
+
+
+
 
 @app.get("/programas")
 def get_programas():
