@@ -75,3 +75,22 @@ def get_comida():
 
 
 print("Agregue esto desde git hub")
+
+
+
+
+@app.get("/programas")
+def get_programas():
+    rows = ["WWE", "TNA", "WCW", "AEW"]
+    return rows
+
+
+@app.get("/comida")
+def get_comida():
+    rows = ["macarrones", "paella", "pizza", "pupusas"]
+    return rows
+
+
+print("Agregue esto desde git hub")
+
+print("Cambios desde locales")
