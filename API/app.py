@@ -59,3 +59,9 @@ def get_deportes():
 def get_programas():
     rows = ["WWE", "TNA", "WCW", "AEW"]
     return rows
+
+
+@app.get("/comida")
+def get_comida():
+    rows = ["macarrones", "paella", "pizza", "pupusas"]
+    return rows
