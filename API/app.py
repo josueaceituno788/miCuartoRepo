@@ -46,3 +46,9 @@ def get_games():
 def get_cursos():
     rows = ["Docker", "Js Script", "C#", "Git Hub"]
     return rows
+
+
+@app.get("/deportes")
+def get_deportes():
+    rows = ["Futbol", "Basket", "Bassball", "Tenis"]
+    return rows
