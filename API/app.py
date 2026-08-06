@@ -37,6 +37,12 @@ def get_warriors_got():
 
 
 @app.get("/juegos")
-def get_games):
+def get_games():
     rows = ["SUPER MARIO", "Super smash", "NFSMW", "Halo", "Zuma Beta", "Sonic dash", "Dk adventure", "WWF"]
+    return rows
+
+
+@app.get("/cursos")
+def get_cursos():
+    rows = ["Docker", "Js Script", "C#", "Git Hub"]
     return rows
